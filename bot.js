@@ -414,7 +414,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 }
                                 else {
                                     return await conn.sendMessage(conn.user.jid, '🐼🐼 Sorry, I Couldnt Read This Error!... (Zaheer Ul Islam fixing soon)' +
-                                        '\n_You can write to NOIZE developers support group for more help._  https://livepktv.online/ '+'\n\n 🔻Reason might be \n'+ error
+                                        '\n_You can write to Kb tv developers support group for more help._  https://livepktv.online/ '+'\n\n 🔻Reason might be \n'+ error
                                         , MessageType.text
                                     );
                                 }    
