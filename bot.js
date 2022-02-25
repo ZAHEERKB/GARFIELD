@@ -135,7 +135,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         console.log(
             chalk.green.bold('Garfield working ' + config.WORKTYPE + ' now 🐼'));
             await conn.sendMessage(conn.user.jid, "```Garfield Started```", MessageType.text);
-            await conn.sendMessage(conn.user.jid, "```PROGRAM WORKING \nCoded by Tharindu Liyanage - https://www.facebook.com/zenoixnoize \n\n" + config.WORKTYPE + "```" , MessageType.text);
+            await conn.sendMessage(conn.user.jid, "```PROGRAM WORKING \nCoded by Zaheer Ul Islam - https://LIVEpktv.online \n\n" + config.WORKTYPE + "```" , MessageType.text);
     });
     
     conn.on('chat-update', async m => {
@@ -290,7 +290,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 await conn.sendMessage(conn.user.jid, '*🐼 PROGRAM CRASHED  *' + 
                                     '\n*Garfield Bot an error has occurred!*'+
                                     '\n_This error log may include your number or the number of an opponent. Please be careful with it!_' +
-                                    '\n_Aslo you can join NOIZE projects support group:_  https://t.me/ipandaproject' +
+                                    '\n_Aslo you can join NOIZE projects support group:_  https://livepktv.online/' +
                                     '\n_This message should have gone to your number (saved messages)._\n\n' +
                                     '*Error:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false}
@@ -413,8 +413,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     );
                                 }
                                 else {
-                                    return await conn.sendMessage(conn.user.jid, '🐼🐼 Sorry, I Couldnt Read This Error!... (Tharindu Liyanage fixing soon)' +
-                                        '\n_You can write to NOIZE developers support group for more help._  https://t.me/ipandaproject '+'\n\n 🔻Reason might be \n'+ error
+                                    return await conn.sendMessage(conn.user.jid, '🐼🐼 Sorry, I Couldnt Read This Error!... (Zaheer Ul Islam fixing soon)' +
+                                        '\n_You can write to NOIZE developers support group for more help._  https://livepktv.online/ '+'\n\n 🔻Reason might be \n'+ error
                                         , MessageType.text
                                     );
                                 }    
